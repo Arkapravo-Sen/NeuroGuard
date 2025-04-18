@@ -1,0 +1,34 @@
+Rationale:
+
+Concussions, while not immediately life-threatening, pose significant risks for long-term cognitive and emotional issues, especially when sustained repeatedly. With approximately 3.8 million sports-related concussions occurring annually in the US, there is a critical need for improved detection methods. Current concussion detection methods primarily focus on impact forces, but incorporating EEG can provide a more comprehensive approach by monitoring brain activity for signs of abnormal patterns indicative of a concussion.
+Importance:
+The integration of EEG technology with helmet sensors could provide a dual-layered approach to concussion detection, combining physical impact monitoring with real-time brain activity analysis. This comprehensive detection system can enhance safety by not only identifying high-impact forces but also by detecting subtle changes in brain activity, allowing for more accurate and timely intervention.
+Proposal:
+This project proposes the development of a bicycle helmet equipped with accelerometers, gyroscopes, and EEG sensors to monitor both impact forces and brain activity. The helmet will measure acceleration and deceleration to detect impacts exceeding the concussion threshold (60Gs) and use EEG to identify abnormal brain activity patterns. The system will alert the user and their emergency contacts if a potential concussion is detected based on either impact forces or abnormal brain activity.
+Goal:
+The goal of this project is to design and implement a helmet that integrates accelerometers, gyroscopes, and EEG sensors to detect concussions through both physical impact and abnormal brain activity. The helmet will provide real-time alerts to users and emergency contacts, facilitating prompt medical assessment and intervention.
+Hypothesis:
+If a bicycle helmet is equipped with accelerometers, gyroscopes, and EEG sensors, the system will accurately detect concussions (put in %) by identifying impacts exceeding 60Gs and abnormal brain activity patterns. This combined approach will enhance the reliability of concussion detection and improve the effectiveness of alerts and medical responses.
+
+
+Procedures:
+Sensor Integration:
+Accelerometers Integrate these sensors into the helmet to measure impact forces 
+EEG Sensors: Install EEG electrodes in the helmet to monitor brain activity. Ensure proper placement for effective signal acquisition.
+Data Processing Unit: Develop or integrate a microcontroller to process data from all sensors. Implement algorithms to detect impact forces exceeding 60Gs. Analyze EEG data for abnormal brain activity patterns indicative of a concussion.
+EEG Analysis: Implement algorithms to assess EEG signals for signs of concussion and trigger alerts as needed.
+Prototype Testing:
+Test the helmet in controlled environments to verify the accuracy of impact detection and EEG signal quality. Validate the system’s ability to detect both high-impact forces and abnormal brain activity.
+Field Testing: Conduct field tests with users to ensure helmet comfort and system reliability under real-world conditions.
+Data Analysis:
+Impact Force Analysis: Analyze sensor data to evaluate the accuracy of impact detection and threshold identification.
+EEG Data Analysis: Assess EEG signals to identify patterns of abnormal brain activity associated with concussions. Validate the correlation between detected abnormal patterns and known concussion cases.
+Conclusion:
+This enhanced approach using both impact measurement and brain activity monitoring should provide a more robust and accurate method for concussion detection.
+Future Plans:
+In the future I would like to:
+
+Add a Bluetooth transmitter to send data to a computer on the sidelines so that the coach can see the health of the players.
+
+Make the hits to the head softer utilizing a soft material that will line the inside of the helmet, further reducing risks of concussion.
+

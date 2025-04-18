@@ -1,0 +1,17 @@
+ADXL375 Accelerometer wouldn’t work, later discovered internal logic of it needed additional power.
+
+Existing Models achieved poor accuracy scores (around 50%) on training data when confined to 1 channel.
+
+I had to teach myself how to make deep learning models
+CNN model was stuck at 66%, eventually pushed it to 70%
+CNN won’t go past 7-, after months of fine tuning got it to 72
+
+Finally had access to 4 channels thanks to Muse2 and achieved 76% accuracy
+
+Model training took hours so I had to be precise in how I trained the models
+
+Neurosky Mindwave software didn’t work for ARM.
+Neurosky Mindwave didn’t connect to RPi
+
+MuseLSL didn’t work on ARM, it worked for x86 windows but not ARM
+MuseLSL2 found and finally worked

@@ -85,7 +85,7 @@ class MyFourConvModel(nn.Module):
         return x
 
 model = MyFourConvModel()
-model.load_state_dict(torch.load("/home/raspberrypi/Muse/lib64/python3.11/site-packages/best_model.pth", map_location=torch.device('cpu')))
+model.load_state_dict(torch.load("path_to_model", map_location=torch.device('cpu')))
 
 ##########################
 #CONNECT TO HEADSET CHUNK#
@@ -250,7 +250,7 @@ try:
                         em.set_content(player_impact)
 
                         # Attach the image
-                        file_path = '/home/raspberrypi/fina_project/lib64/python3.11/site-packages/data.png'
+                        file_path = 'path_to_eeg_image'
 
                         try:
                             with open(file_path, 'rb') as file:
@@ -283,7 +283,7 @@ Please consider seeing a doctor if the player shows abnormal behavior."""
                         em.set_content(player_impact)
 
                         # Attach the image
-                        file_path = '/home/raspberrypi/fina_project/lib64/python3.11/site-packages/data.png'
+                        file_path = 'path_to_data_image'
 
                         try:
                             with open(file_path, 'rb') as file:
